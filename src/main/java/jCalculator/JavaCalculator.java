@@ -504,6 +504,7 @@ public class JavaCalculator extends javax.swing.JFrame {
                         inputText(e);
                     }
                     firstNum = Float.parseFloat(txtDisplay.getText());
+                    secondNum = 0;
                     operator = btnText;
                     firstDigit = true;
                 //}
